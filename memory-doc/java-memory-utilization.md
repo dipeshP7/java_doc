@@ -17,6 +17,8 @@ Array Object (in the heap):
 	An array in Java is an object. It has:
 
 	Object header:
+		which contains metadata like synchronization information and type identification.
+	
 		On a 32-bit JVM: 8 bytes.
 		On a 64-bit JVM with CompressedOops enabled: 12 bytes.
 		On a 64-bit JVM without CompressedOops: 16 bytes.

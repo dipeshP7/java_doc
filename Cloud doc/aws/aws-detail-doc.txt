@@ -1,0 +1,75 @@
+
+
+https://www.youtube.com/watch?v=k1RI5locZE4
+
+Cloud : 
+
+services : - IAAS , PAAS, SAAS
+
+deployment models :  private , public hybird
+
+
+
+AWS
+
+Deoployment:
+ec2:  coumpute -> clean state (new laptop) -> new machine -> need to setup all from base
+
+elastic beanstalk: same as ec2 > diff its contain some predifined liberies
+
+
+--------------------
+Migration :
+	move data from one place to another
+	
+	snowball : like data storage
+	
+--------------------------
+
+Security 
+	IAAM -> authietication 
+	KMS -> public and private key
+	
+----------------------------
+Storage :
+	s3: bucket
+	Glacier -: store archirve 
+	
+--------------------------
+Networking
+	VPC - virtual network
+	Direct Connect - least internet connection
+	
+	#########################
+	
+EC2 - virutal server -> shared 
+	
+	Types -> 
+		General Purpose instance -> quick response with handling large request 
+		compute instance -> high level processing
+		memory instance -> heavey in nature, require lots of Ram, multitasking
+		storage instance -> more storage, large data
+		GPU instance- >  graphical work, 3d
+		
+		
+	pricing :
+		on-demand -> require for cetain hour, charge accroding to use like hours , instance terminated after expiry of hour
+		dedicated -> not shared by anyone, secure of highy confidential data
+		on-spot ->  bidding of instance like share 
+		reserved -> renting for long period
+	
+	General functioning
+		Burstable : put some configuration of cup like 20% , if more traffic it will use more cpu at that urgent time ,
+					that called burst , will gate credit point to use this.
+		EBS optimised : processing data at higher speed
+		Cluster Networking: custer of instance
+		Dedicated: data related, security 
+		
+----------------------------------------------
+----------------------------------------------
+
+		
+	
+	
+	
+		
